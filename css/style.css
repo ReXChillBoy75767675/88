@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+body{
+  background-image: url(https://img1.akspic.ru/originals/3/1/7/9/4/149713-purpur-grafika-fioletovyj-voda-kompaniya_huawei_mediapad_na_m6-1920x1080.jpg);
+    font-family: 'Sigmar One', cursive;
+  }
+  p{
+    color: blue;
+  }
+  .button{
+    background-color:#E8E1E7;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 25px;
+    color : white;
+    width: 105px;
+  }
+  .posts{
+  font-family: 'Fjalla One', sans-serif;
+    background-color:#E8E1E7;
+    border: 1px solid:#F4DBDB ;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color : white;
+      margin: 10px 10px;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EE5BF5
+  }
+
+  li{
+    float: left;
+  }
+
+  li a, .dropbtn{
+     display: inline-block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover, .dropdown:hover .dropbtn{
+    background-color: #F55B67;
+  }
+
+  li.dropdown{
+    display: inline-block;
+  }
+
+  .dropdown-content{
+    dasplay:none;
+    position: absolute;
+    background-color: #BC57EB;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba( 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a{
+    color: black
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover{
+    background-color: #EB6957;
+  }
+
+  .button{
+    background-color: #F55B67
+  }
+.slider {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slick-arrow{
+  z-index: 2;
+}
